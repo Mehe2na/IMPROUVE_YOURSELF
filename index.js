@@ -20,6 +20,6 @@ app.use('/users',userRouter)
 app.use('/admins',adminRouter)
 
 
-console.log('it works')
+//console.log('it works')
 
 app.listen(3100)
