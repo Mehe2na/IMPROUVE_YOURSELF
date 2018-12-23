@@ -3,19 +3,19 @@ const Schema = mongoose.Schema;
 export const AdminSchema = new Schema({
 	FirstName: {
 		type: String,
-		required: 'Title is required'
+		required: 'FirstName is required'
 	},
 	LastName: {
 		type: String,
-		required: 'Author is required'
+		required: 'LastName is required'
 	},
 	Email: {
 		type: String,
-		required: 'Content is required'
+		required: 'Email  is required'
 	},
 	PhoneNumber: {
-		type: Date,
-		required: 'Content is required'
+		type: String,
+		required: 'PhoneNumber is required'
     },
     created_date:{
 		type: Date,

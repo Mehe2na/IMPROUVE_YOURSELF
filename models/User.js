@@ -11,11 +11,11 @@ export const UserSchema = new Schema({
 	},
 	Email: {
 		type: String,
-		required: 'Content is required'
+		required: 'Email is required'
 	},
 	PhoneNumber: {
 		type: String,
-		default: 'Content is required'
+		default: 'PhoneNumber is required'
     },
     created_date:{
 		type: Date,
